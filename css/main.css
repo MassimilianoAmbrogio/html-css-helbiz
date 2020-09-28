@@ -29,7 +29,11 @@ body {
 
 .list {
   text-align: center;
+  list-style: none;
   background: #fff;
+  text-transform: uppercase;
+  line-height: 25px;
+  font-size: 12px;
 }
 
 /* MAIN */
@@ -39,9 +43,22 @@ body {
 }
 
 .home h1 {
+  position: absolute;
+  top: 65%;
+  left: 30%;
   margin-bottom: 30px;
   font-size: 50px;
   line-height: 40px;
-  background: #fff;
-  display: inline-block;
+  color: #fff;
+}
+
+p {
+  position: absolute;
+  top: 74%;
+  left: 35%;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 500;
 }
