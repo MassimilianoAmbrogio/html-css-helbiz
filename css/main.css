@@ -51,7 +51,6 @@ body {
 
 /* MAIN */
 .home {
-  margin-left: 45px;
   width: 100%;
 }
 
@@ -67,6 +66,7 @@ body {
 
 .home img {
   width: 96%;
+  margin-left: 40px;
 }
 
 p {
