@@ -11,11 +11,11 @@
 
 /* CONTAINER */
 .container {
-  width: 1070px;
+  /* width: 1070px; */
   max-width: 100%;
   margin: 0 auto;
   /* debug */
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .container::after {

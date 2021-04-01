@@ -1,23 +1,6 @@
 /* GENERAL STYLE */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-  width: 100%;
-  height: 80px;
-}
-
-.container::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 /* HEADER */
@@ -58,7 +41,7 @@ body {
   position: absolute;
   width: 50%;
   height: 140px;
-  top: 33.8%;
+  top: 34%;
   left: 25%;
   text-align: center;
 }
