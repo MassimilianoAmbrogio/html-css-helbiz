@@ -12,13 +12,14 @@ body {
 }
 
 .list {
-  width: 630px;
+  width: 900px;
   height: 80px;
   text-align: center;
   margin-left: 42%;
 }
 
-.list li {
+.list .link,
+.languages {
   display: inline-block;
   margin-top: 28px;
   text-transform: uppercase;
@@ -30,6 +31,18 @@ body {
   text-decoration: none;
   color: #000;
   margin-right: 30px;
+}
+
+.list .shop {
+  margin-right: 20px;
+}
+
+.languages a {
+  margin-right: 10px;
+}
+
+.languages .language {
+  margin-left: 10px;
 }
 
 /* MAIN */
@@ -60,4 +73,17 @@ body {
   margin-top: 27px;
   margin-right: 10px;
   font-size: 19.6px;
+}
+
+.cont-down {
+  position: absolute;
+  width: 410px;
+  height: 70px;
+  top: 51%;
+  left: 39.2%;
+}
+
+.cont-down img {
+  width: 200px;
+  cursor: pointer;
 }
