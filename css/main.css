@@ -236,7 +236,8 @@ body {
     display: block;
   }
 
-  .how-works {
+  .how-works,
+  .smart-mobility {
     background-position: center;
   }
 
@@ -259,5 +260,71 @@ body {
   .how-works .col-left,
   .how-works .col-right {
     margin-top: 500px;
+  }
+}
+
+/* IMGS */
+.smart-mobility {
+  display: inline-block;
+  width: 92%;
+  height: 600px;
+  margin-left: 80px;
+  margin-bottom: 200px;
+  background-image: url(../img/scooter-bg.jpg);
+  background-size: cover;
+  background-position: top 30% left center;
+}
+
+.smart-mobility .col-right {
+  margin-left: 62%;
+  margin-top: 150px;
+}
+
+.smart-mobility .col-right .text {
+  padding-top: 10px;
+}
+
+.smart-mobility .text {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+}
+
+.smart-mobility .text h2 {
+  font-size: 50px;
+}
+
+.smart-mobility .text p {
+  margin-top: 16px;
+}
+
+.smart-mobility .text a {
+  display: inline-block;
+  margin-top: 17px;
+  text-decoration: none;
+}
+
+.smart-mobility .text p,
+.smart-mobility .text a {
+  font-size: 21px;
+}
+
+.smart-mobility .text h2,
+.smart-mobility .text p,
+.smart-mobility .text a {
+  font-weight: 600;
+  color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+  .smart-mobility {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .smart-mobility {
+    margin-bottom: 250px;
   }
 }
