@@ -269,7 +269,6 @@ body {
   width: 92%;
   height: 600px;
   margin-left: 80px;
-  margin-bottom: 200px;
   background-image: url(../img/scooter-bg.jpg);
   background-size: cover;
   background-position: top 30% left center;
@@ -317,14 +316,171 @@ body {
 }
 
 @media screen and (max-width: 1400px) {
-  .smart-mobility {
+  .smart-mobility,
+  .get-app,
+  .get-city,
+  .helb-family {
     display: block;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .smart-mobility {
-    margin-bottom: 250px;
+  .smart-mobility,
+  .get-app,
+  .get-city,
+  .helb-family {
+    margin-bottom: 30px;
   }
+}
+
+.get-app {
+  display: inline-block;
+  width: 45%;
+  height: 540px;
+  margin-left: 80px;
+  background: #344453;
+  background-image: url(../img/helbiz-app.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 500% center;
+}
+
+.get-app .col-left {
+  margin-left: 22%;
+  margin-top: 20px;
+}
+
+.get-app .col-left .text {
+  padding-top: 10px;
+}
+
+.get-app .text {
+  width: 440px;
+  height: 180px;
+  text-align: center;
+}
+
+.get-app .text h2 {
+  font-size: 34px;
+}
+
+.get-app .text p {
+  margin-top: 22px;
+}
+
+.get-app .text a {
+  display: inline-block;
+  margin-top: 22px;
+  text-decoration: none;
+}
+
+.get-app .link-2 {
+  margin-left: 12px;
+}
+
+.get-app .text p,
+.get-app .text a {
+  font-size: 22px;
+}
+
+.get-app .text h2,
+.get-app .text p,
+.get-app .text a {
+  font-weight: 600;
+  color: #fff;
+}
+
+.get-city {
+  display: inline-block;
+  width: 45%;
+  height: 540px;
+  margin-left: 34px;
+  background: #344453;
+  background-image: url(../img/cities.jpg);
+  background-size: cover;
+  background-position: bottom 93% center;
+}
+
+.get-city .col-left {
+  margin-left: 27.8%;
+  margin-top: 18px;
+}
+
+.get-city .col-left .text {
+  padding-top: 10px;
+}
+
+.get-city .text {
+  width: 340px;
+  height: 180px;
+  text-align: center;
+}
+
+.get-city .text h2 {
+  font-size: 34px;
+}
+
+.get-city .text p {
+  margin-top: 22px;
+  font-size: 22px;
+}
+
+.get-city .text a {
+  display: inline-block;
+  margin-top: 22px;
+  text-decoration: none;
+}
+
+.get-city .text a {
+  font-size: 22px;
+}
+
+.get-city .text h2,
+.get-city .text p,
+.get-city .text a {
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Cont Socials */
+.container-family {
+  width: 1350px;
+}
+
+.helb-family {
+  height: 540px;
+  background-image: url(../img/social-banner.jpg);
+  background-size: cover;
+  background-position: left center;
+}
+
+.helb-family .col-left {
+  margin-top: 136px;
+}
+
+.helb-family .col-left .cont-social {
+  display: inline-block;
+  width: 624px;
+  height: 266px;
+  padding-top: 60px;
+  margin-left: 103%;
+  text-align: center;
+  background: #fff;
+}
+
+.helb-family .cont-social h2 {
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.helb-family .cont-social a {
+  padding: 18px;
+}
+
+.helb-family .cont-social h2,
+.helb-family .cont-social a {
+  font-size: 38px;
+  font-weight: 600;
+  color: #000;
 }

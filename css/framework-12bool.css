@@ -11,7 +11,8 @@
 
 /* CONTAINER */
 .container,
-.container-works {
+.container-works,
+.container-family {
   /* width: 1070px; */
   max-width: 100%;
   margin: 0 auto;
@@ -25,7 +26,8 @@
   clear: both;
 }
 
-.container-works {
+.container-works,
+.container-family {
   width: 1070px;
 }
 
