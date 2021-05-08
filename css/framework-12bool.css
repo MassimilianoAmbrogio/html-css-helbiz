@@ -12,7 +12,8 @@
 /* CONTAINER */
 .container,
 .container-works,
-.container-family {
+.container-family,
+.cont-footer {
   /* width: 1070px; */
   max-width: 100%;
   margin: 0 auto;
@@ -20,7 +21,8 @@
   /* margin-bottom: 16px; */
 }
 
-.container::after {
+.container::after,
+.cont-footer::after {
   content: '';
   display: table;
   clear: both;

@@ -88,7 +88,6 @@ body {
 
 .cont-down img {
   width: 200px;
-  cursor: pointer;
 }
 
 .cont-imgs {
@@ -445,7 +444,7 @@ body {
 
 /* Cont Socials */
 .container-family {
-  width: 1350px;
+  width: 1250px;
 }
 
 .helb-family {
@@ -464,7 +463,7 @@ body {
   width: 624px;
   height: 266px;
   padding-top: 60px;
-  margin-left: 103%;
+  margin-left: 83%;
   text-align: center;
   background: #fff;
 }
@@ -483,4 +482,134 @@ body {
   font-size: 38px;
   font-weight: 600;
   color: #000;
+}
+
+/* Footer */
+.cont-footer {
+  height: 680px;
+  margin-top: 36px;
+  background: #000;
+}
+
+.cont-helb,
+.cont-text-links {
+  width: 1050px;
+  height: 376px;
+  margin: 0 auto;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.cont-img {
+  width: 140px;
+  height: 30px;
+}
+
+.cont-img,
+.cont-product,
+.cont-info,
+.cont-helbiz {
+  float: left;
+  margin-top: 90px;
+}
+
+.cont-product,
+.cont-info,
+.cont-helbiz {
+  width: 130px;
+  height: 160px;
+  margin-left: 12%;
+}
+
+.cont-product h3,
+.cont-info h3,
+.cont-helbiz h3 {
+  font-size: 18px;
+  margin-top: 4px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.cont-product a,
+.cont-info a,
+.cont-helbiz a {
+  display: block;
+  font-size: 14px;
+  margin-top: 17px;
+  text-decoration: none;
+  color: #808080;
+}
+
+.cont-info,
+.cont-helbiz {
+  height: 240px;
+}
+
+.cont-text-links {
+  height: 110px;
+}
+
+.cont-text-links .cont-links,
+.cont-text-links .cont-terms,
+.cont-text-links .cont-press,
+.cont-text-links .cont-copyright {
+  float: left;
+  width: 200px;
+  height: 40px;
+  margin-top: 38px;
+}
+
+.cont-links .facebook,
+.cont-links .twitter, 
+.cont-links .instagram, 
+.cont-links .youtube, 
+.cont-links .linkedin {
+  font-size: 23px;
+  color: #fff;
+}
+
+.cont-links .twitter,
+.cont-links .instagram, 
+.cont-links .youtube, 
+.cont-links .linkedin {
+  margin-left: 17px;
+}
+
+.cont-text-links .cont-terms,
+.cont-text-links .cont-press,
+.cont-text-links .cont-copyright {
+  width: 130px;
+  height: 20px;
+  margin-top: 44px;
+  margin-left: 67px;
+}
+
+.cont-text-links .cont-terms a,
+.cont-text-links .cont-press a,
+.cont-text-links .cont-copyright span {
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cont-text-links .cont-press {
+  width: 100px;
+  margin-left: 126px;
+}
+
+.cont-text-links .cont-copyright {
+  width: 80px;
+  margin-left: 156px;
+}
+
+.cont-downl {
+  width: 260px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.cont-downl img {
+  width: 120px;
+  border: 1px solid #a6a6a6;
+  border-radius: 6px;
 }
